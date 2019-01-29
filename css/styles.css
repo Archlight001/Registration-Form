@@ -1,0 +1,63 @@
+body{
+  background-color: #8f1d14;
+}
+
+h1,h2{
+  font-family: "Merriweather";
+  font-weight:700;
+  color:#e6dedd;
+}
+#navlinkid{
+  margin:0.5rem 0.5rem;
+}
+
+.container-fluid{
+  padding: 2% 15%;
+}
+.heading-name{
+  font-size: 2.5rem;
+}
+.heading-2-name{
+  margin-left: 1rem;
+  font-size: 1.5rem;
+}
+.form-div{
+  background-color: #1b120f;
+  padding: 5px 8px;
+  margin:auto;
+  color: white;
+  border-radius: 10px;
+}
+
+.center-button{
+  font-weight: bold;
+  margin: 2% 45%;
+}
+
+#overide{
+  background-color: black;
+}
+.formembers{
+  display: block;
+}
+.formarshalls{
+  display: none;
+}
+
+.notice{
+  margin-left: 1rem;
+  color: yellow;
+  font-weight: bold;
+  font-style: italic;
+}
+
+label{
+  font-weight: bold;
+  margin-bottom: .2rem;
+}
+
+@media(max-width:760px){
+  .heading-name{
+    font-size: 1.5rem;
+  }
+}
